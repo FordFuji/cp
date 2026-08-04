@@ -1,0 +1,104 @@
+My Overview
+1. My Profile ให้นักเรียนทุน กรอกได้เอง
+
+ci_profile -> profile_id, profile_image1, profile_image2, profile_image3, profile_image4, profile_name_th, profile_name_en, profile_name_ch, profile_email_business, profile_email_personal, profile_mobile, profile_date_of_birth, profile_weight, profile_height, profile_address_th, profile_address_en, profile_my_ambition, profile_feilds_of_interests1, profile_my_goals, profile_feilds_of_interests2, profile_my_expectation, profile_feilds_of_interests3, profile_datetime_create, profile_datetime_update
+
+ci_chat -> chat_id, profile_id, chat_qr_code_image, chat_application, chat_datetime_create
+
+ci_education -> education_id, profile_id, education_institute, education_level, education_year, education_datetime_create
+
+ci_extra_curriculum -> extra_curriculum_id, profile_id, extra_curriculum_course, extra_curriculum_institute, extra_curriculum_period, extra_curriculum_datetime_create
+
+ci_training_experiences -> training_experiences_id, profile_id, training_experiences_trainning, training_experiences_place, training_experiences_period, training_experiences_datetime_create
+
+ci_certificate -> certificate_id, profile_id, certificate_name, certificate_place, certificate_date, certificate_datetime_create
+
+ci_standardized_tests -> standardized_tests_id, profile_id, standardized_tests_name, standardized_tests_place, standardized_tests_date, standardized_tests_datetime_create
+
+ci_active_participation -> active_participation_id, profile_id, active_participation_name, active_participation_place, active_participation_date, active_participation_datetime_create
+
+ci_award -> award_id, profile_id, award_image, award_name, award_datetime_create
+
+2. My Message คล้ายๆกับ เว็บบอร์ด ให้นักเรียนทุนมาถามข้อสงสัย
+
+ci_webboard -> webboard_id, webboard_topic, webboard_date, webboard_detail, webboard_datetime_create, webboard_datetime_update
+
+ci_my_message -> my_message_id, profile_id, webboard_id, my_message_topic, my_message_answer, my_message_datetime_create
+
+3. My Study นักเรียนทุนกรอกเองหลังบ้าน
+
+ci_study -> study_id, profile_id, study_transcript_image, study_year, study_level, study_term, study_gpa, study_gpax, study_datetime_create, study_datetime_update
+
+ci_calendar_study -> calendar_study_id, profile_id, calendar_study_term1, calendar_study_register1, calendar_study_exam_mid_term1, calendar_study_exam_final_term1, calendar_study_term_break1, calendar_study_term2, calendar_study_register2, calendar_study_exam_mid_term2, calendar_study_exam_final_term2, calendar_study_datetime_create, calendar_study_datetime_update
+
+4. My Page-folio ให้ดึงข้อมูลจากข้อ 1. มาแสดง
+5. My Page Diary ให้นักเรียนทุน มากรอก
+
+ci_page_diary -> page_diary_id, profile_id, page_diary_life1, page_diary_money_from_home1, page_diary_study1, page_diary_relation1, page_diary_happy1, page_diary_note1, page_diary_life2, page_diary_money_from_home2, page_diary_study2, page_diary_relation2, page_diary_happy2, page_diary_note2, page_diary_life3, page_diary_money_from_home3, page_diary_study3, page_diary_relation3, page_diary_happy3, page_diary_note3, page_diary_datetime_create, page_diary_datetime_update
+
+My Learning Space
+6. My Improvement Plan ให้นักเรียนทุนมากรอกข้อมูล
+
+ci_making_plan -> making_plan_id, profile_id, making_plan_occupation1, making_plan_person11, making_plan_study11, making_plan_study_term11, making_plan_person12, making_plan_study12, making_plan_study_term12, making_plan_person13, making_plan_study13, making_plan_study_term13, making_plan_occupation2, making_plan_person21, making_plan_study21, making_plan_study_term21, making_plan_person22, making_plan_study22, making_plan_study_term22, making_plan_person23, making_plan_study23, making_plan_study_term23, making_plan_occupation3, making_plan_person31, making_plan_study31, making_plan_study_term31, making_plan_person32, making_plan_study32, making_plan_study_term32, making_plan_person33, making_plan_study33, making_plan_study_term33, making_plan_datetime_create, making_plan_datetime_update
+
+7. My Course ให้ทางลูกค้า CP กรอกเองได้ทางหลังบ้าน
+
+ci_courses_offer_by_cp -> courses_offer_by_cp_id, profile_id, courses_offer_by_cp_name, courses_offer_by_cp_who, courses_offer_by_cp_status, courses_offer_by_cp_certificate, courses_offer_by_cp_datetime_create, courses_offer_by_cp_datetime_update
+
+ci_courses_on_demand -> courses_on_demand_id, profile_id, courses_on_demand_name, courses_on_demand_who, courses_on_demand_status, courses_on_demand_certificate, courses_on_demand_datetime_create, courses_on_demand_datetime_update
+ 
+8. My English Update ให้ทาง CP กรอกเองหลังบ้าน
+
+ci_english_update -> english_update_id, profile_id, english_update_year, english_update_quarter, english_update_hours, english_update_level, english_update_datetime_create, english_update_datetime_update
+
+9. My Training ให้นักเรียนทุนมากรอกการฝึกงาน
+
+ci_training -> training_id, profile_id, training_date_begin, training_date_end, training_company, training_place, training_grade, training_description_grade
+
+10. My Project ให้นักเรียนทุนมากรอก Project โดยทาง CP กรอกเริ่มต้นก่อนว่านักเรียนทุนแต่ละคนมี Project อะไรบ้าง
+My Download
+
+ci_category_project -> category_project_id, category_project_name, category_project_datetime_create, category_project_datetime_update
+ci_project -> project_id, profile_id, project_status, project_approve, project_file, project_datetime_create
+
+11. Planning your project ให้ทาง CP อัพ VDO ได้เอง
+
+ci_level_planning_your_project -> level_planning_your_project_id, level_planning_your_project_name, level_planning_your_project_description, level_planning_your_project_datetime_create, level_planning_your_project_datetime_update
+ 
+ci_planning_your_project -> planning_your_project_id, level_planning_your_project_id, planning_your_project_name, planning_your_project_file, planning_your_project_datetime_create
+
+12. Form Download ให้ทางลูกค้า CP มาอัพไฟล์ Form ต่างๆ
+
+ci_category_form -> category_form_id, category_form_name, category_form_datetime_create, category_form_datetime_update
+
+ci_form -> form_id, category_form_id, form_file, form_name, form_description, form_datetime_create, form_datetime_update
+
+13. Document download ให้ทางลูกค้า CP มาอัพเอกสารต่าง
+
+ci_document_download -> document_download_id, document_download_file, document_download_name, document_download_description
+ 
+14. Q&A ให้ทางลูกค้า CP อัพทางหลังบ้าน และมาแสดงผลหน้าบ้าน
+
+ci_q_a -> q_a_id, q_a_question, q_a_answer, q_a_datetime_create, q_a_datetime_update
+
+15. Change Password สำหรับเปลี่ยนรหัสผ่านของนักเรียนทุน
+
+-> รอถามอยู่
+
+เพิ่มเติมครับ
+16. About Us ต้องทำหลังบ้านมั๊ยครับ -> ไม่ต้องทำ
+17. Alumni Check ให้ทางลูกค้า CP กรอกหลังบ้าน แล้วแสดงผลในหน้านี้
+
+-> รอถามอยู่
+
+18. Alumni activity จะเหมือน News Activity ทั่วไป
+
+ci_activity -> activity_id, activity_image, activity_name, activity_description, activity_detail, activity_datetime_create, activity_datetime_update 
+
+19. Souvenir shop ทางลูกค้า CP กรอกหลังบ้าน แล้วแสดงผลในหน้านี้ -> ปีนี้เมนูนี้จะยังไม่ถูกใช้
+
+ci_category_souvenir -> category_souvenir_id, category_souvenir_name, category_souvenir_datetime_create, category_souvenir_datetime_update
+
+ci_souvenir -> souvenir_id, category_souvenir_id, souvenir_image, souvenir_price, souvenir_before_discount_price, souvenir_link_contact
+20. Contact Us มีให้กรอกแบบฟอร์ม Contact Us เข้าหลังบ้าน
+

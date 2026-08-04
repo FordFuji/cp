@@ -1,0 +1,9 @@
+1. Banner มี Text รูป Slide
+2. About Us
+3. ค้นหาศิษย์เก่า
+4. Activity
+5. Shop
+6. ระบบ Member
+7. My Message
+8. Import Excel File
+9. เว้บภาษาเดียว
